@@ -1,0 +1,71 @@
+# Root .gitignore for FullStack project (Frontend & Backend)
+
+# Environment variables & Secrets (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+id_rsa*
+secrets.json
+
+# Node dependencies
+**/node_modules/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Database files, dumps & backups
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.sql
+*.mdb
+*.ldf
+*.mdf
+/data/
+/db/
+/dumps/
+
+# Uploads & User Media (Backend dynamic storage)
+/uploads/
+/temp/
+/tmp/
+/Back-end/uploads/
+/Back-end/temp/
+
+# Build and Output directories
+/dist/
+/dist-ssr/
+/build/
+/out/
+/.vite/
+
+# Logs
+logs/
+*.log
+
+# Coverage & testing
+coverage/
+.nyc_output/
+
+# OS metadata & Editor configuration
+.DS_Store
+Thumbs.db
+ej-lat-long.txt
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
