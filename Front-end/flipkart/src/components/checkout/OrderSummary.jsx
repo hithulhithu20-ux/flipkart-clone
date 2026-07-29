@@ -17,7 +17,7 @@ const OrderSummary = () => {
     <div className="h-fit bg-white">
 
       <div className="border-b p-4 text-gray-500">
-        ORDER DETAILS
+        ORDER SUMMARY
       </div>
 
       <div className="p-4">
