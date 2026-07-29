@@ -3,7 +3,7 @@ const AddressForm = () => {
     <div className="bg-white p-5">
 
       <h2 className="mb-5 text-xl font-semibold">
-        Delivery Address
+        Delivery place
       </h2>
 
       <div className="grid gap-4 md:grid-cols-2">
